@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    float: left;
+    background-color: #8080800d;
+}
+
+.container{
+
+
+}
+
+.logo {
+    width: 18%;
+    float: left;
+}
+
+.logo img {
+    width: 136px;
+    display: block;
+}
+
+.menu {
+    width: 60%;
+    float: left;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 54px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 14px;
+    padding: 7px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #006bb6;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.social {
+    width: 22%;
+    float: left;
+}
+
+.social ul {
+    list-style: none;
+    margin: 55px 0px;
+}
+
+
+.social ul li {
+    display: inline;
+    margin: 4px;
+    font-size: 23px;
+}
+
+.social ul li a{
+    
+margin: 5px;
+}
+
+.fa.fa-instagram {
+    color: #e05410;
+    transition: 0.5s ease;
+}
+
+.fa.fa-google-plus-official {
+    color: red;
+    transition: 0.5s ease;
+}
+
+.fa.fa-facebook-official {
+    color: blue;
+    transition: 0.5s ease;
+}
+
+.fa.fa-facebook-official:hover {
+    transform: scale(1.4);
+}
+
+.fa.fa-google-plus-official:hover {
+    transform: scale(1.4);
+}
+
+.fa.fa-instagram:hover {
+    transform: scale(1.4);
+}
+
+.fa.fa-sign-in{
+    transition: 0.5s ease;
+}
+
+.fa.fa-sign-in:hover{
+    transform: rotate(360deg);
+}
+
+.hero {
+    background: url(../img/c.jpg);
+    width: 100%;
+    float: left;
+    background-size: cover;
+}
+
+.banner {
+    width: 525px;
+    margin: 7% auto;
+    background-color: #f5f5dc75;
+    padding: 50px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.banner h2 {
+    color: #074b79;
+    margin: 1px;
+    font-family: cursive;
+    font-size: 29px;
+}
+.banner p{
+
+font-size: 17px;
+
+margin: 25px;
+
+font-family: cursive;
+}
+
+.banner ul{
+
+list-style: none;
+}
+
+.banner ul li{
+
+display: inline;
+
+background-color: black;
+
+padding: 13px;
+
+margin: 33px;
+
+border-radius: 16px;
+}
+
+.banner ul li a{
+    
+text-decoration: none;
+    
+color: white;
+    
+text-transform: uppercase;
+}
+
+.message{
+
+}
+
+.message span {
+    background-color: cornflowerblue;
+    color: #5f0e0e;
+    position: fixed;
+    right: 0;
+    top: 311px;
+}
